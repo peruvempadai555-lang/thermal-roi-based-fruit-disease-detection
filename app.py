@@ -95,7 +95,7 @@ model = load_model()
 CLASS_NAMES = ['Major_Defect', 'Minor_Defect', 'No_Defect']
 
 # ---------- UI ----------
-st.title("🔥 Thermal Fruit Image Defect Detection")
+st.title("🔥 Thermal ROI-Based Fruit Disease Detection")
 st.markdown(f"**Model accuracy on validation set:** {MODEL_ACCURACY:.0%}")
 
 uploaded_file = st.file_uploader("Choose a thermal image...", type=["jpg", "jpeg", "png"])
